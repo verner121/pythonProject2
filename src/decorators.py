@@ -20,16 +20,16 @@ def decorator_record_file(file_name):
 
             df = func(*args, **kwargs)
 
-            logger.info('Проверка: являются ли данные датафреймом')
+            logger.info("Проверка: являются ли данные датафреймом")
 
             if isinstance(df, pd.DataFrame):
 
-                logger.info('Запись отчёта в файл')
+                logger.info("Запись отчёта в файл")
 
                 df.to_json(file_name, orient="records", lines=True, force_ascii=False)
 
             else:
-                logger.error('Данные не являются датафреймом. В файл записаны не будут')
+                logger.error("Данные не являются датафреймом. В файл записаны не будут")
 
             return df
 

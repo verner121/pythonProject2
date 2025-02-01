@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09911509-2776-426d-a8b2-6b7c67debb09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/my_operations.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="09911509-2776-426d-a8b2-6b7c67debb09" name="Changes" comment="добавление декоратора и вспомогательных файлов">
+      <change afterPath="$PROJECT_DIR$/src/external_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +106,27 @@
       <option name="presentableId" value="Default" />
       <updated>1738439317590</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавление декоратора и вспомогательных файлов">
+      <option name="closed" value="true" />
+      <created>1738441324230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738441324230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавление декоратора и вспомогательных файлов">
+      <option name="closed" value="true" />
+      <created>1738441340766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738441340766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавление декоратора и вспомогательных файлов" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление декоратора и вспомогательных файлов" />
   </component>
 </project>
